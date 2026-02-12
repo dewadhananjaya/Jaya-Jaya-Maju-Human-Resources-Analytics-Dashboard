@@ -1,0 +1,11 @@
+Feature;Correlation_Coefficient
+OverTime_Yes;256
+MaritalStatus_Single;184
+JobRole_Sales Representative;168
+JobRole_Laboratory Technician;113
+BusinessTravel_Travel_Frequently;104
+DistanceFromHome;78
+EducationField_Technical Degree;77
+Department_Sales;66
+EducationField_Marketing;42
+NumCompaniesWorked;37
