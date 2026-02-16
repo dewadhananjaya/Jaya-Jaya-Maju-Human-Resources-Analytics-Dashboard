@@ -10,7 +10,7 @@ Jaya Jaya Maju, a multinational company operating since 2000 with more than 1,00
 
 - Identifying the key driver factors of employee attrition remains a challenge for the company, hindering effective retention strategies.
 
-- The HR department lacks a real-time business dashboard to monitor key metrics related to employee loyalty and workforce demographics and attrition trends.
+- The HR department lacks a real-time business dashboard to monitor key metrics related to employee loyalty, workforce demographics, and attrition trends.
 
 ## Project Scope
 
@@ -26,13 +26,15 @@ Jaya Jaya Maju, a multinational company operating since 2000 with more than 1,00
 
 - **Evaluation:** Testing model performance and identifying the most influential factors.
 
-- **Visualization (Dashboard):** Developing a business dashboard to help HR monitor employee metrics in real time.
+- **Visualization (Dashboard):** Developing a business dashboard using Looker Studio to help HR monitor employee metrics in real time.
+  
+- **Conclusion and Recommended Action Items:** This section summarizes the key findings from the data analysis and provides actionable strategies to mitigate employee attrition.
 
 ## Preparation
 
 The following are the steps to set up the environment:
 
-**Data Source:**  
+### Data Source  
 https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee  
 
 ### Environment Setup
