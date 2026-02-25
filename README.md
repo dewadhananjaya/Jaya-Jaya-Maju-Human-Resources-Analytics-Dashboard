@@ -45,13 +45,13 @@ If you install Python using Anaconda or Miniconda, you can use Conda as both a p
 2. Run the following command to create a new virtual environment:
 
 ```
-conda create --name prediksi_attrition python=3.12.12
+conda create --name attrition_prediction python=3.12.12
 ```
 
 3. Activate the virtual environment:
 
 ```
-conda activate prediksi_attrition
+conda activate attrition_prediction
 ```
 
 4. Install all required libraries:
@@ -84,7 +84,7 @@ Employee attrition at the company is mainly driven by workload and personal demo
 
 From an operational side, roles like **JobRole_Sales Representative** and **JobRole_Laboratory Technician** have the highest turnover, likely due to high targets or repetitive tasks. Practical issues, such as a long **DistanceFromHome** and a history of frequently changing jobs (**NumCompaniesWorked**), also clearly predict who might experience attrition. On the other hand, a higher **MonthlyIncome**, better **JobLevel**, and more **TotalWorkingYears** act as "anchors" that keep employees loyal to the company.
 
-To manage this risk, the company should use predictive technology. The **Random Forest** model is the most effective tool, with an impressive **94.51% accuracy** and an **AUC of 0.9827**. Because this model is so stable and accurate, the company can use it to identify "at-risk" employees early and create better strategies to keep them.
+In terms of predictive modeling, the **XGBoost** model achieved the highest **ROC-AUC score (0.8487)**, indicating strong discriminative ability. The **Random Forest** model delivered the best overall balance between precision and recall, with an **accuracy of 86%** and **ROC-AUC of 0.8257**, making it the most reliable for practical deployment. The **SVM** model, while achieving decent recall, showed weaker precision and overall performance.
 
 ## Recommended Action Items
 
